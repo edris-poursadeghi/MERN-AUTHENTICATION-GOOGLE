@@ -1,0 +1,32 @@
+.edit_user {
+  direction: rtl;
+}
+
+.edit_user .row button i {
+  margin: 0 5px;
+}
+
+.edit_user .go_back {
+  background: white;
+  margin: 20px;
+  font-size: 1rem;
+}
+
+.edit_user .col-right {
+  margin-top: 50px;
+}
+
+.edit_user .col-right input {
+  background: #eee;
+}
+
+.edit_user .col-right #isAdmin {
+  width: 20px;
+  height: 20px;
+  transition: translateY(3px);
+}
+
+.edit_user .col-right #isAdmin + label {
+  display: inline-block;
+  margin-right: 5px;
+}

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "yekan";
+  src: local("yekan"), url("./fonts/Yekan.woff") format("woff");
+}
+
+a,
+h1,
+h2,
+h3,
+h3,
+h5,
+h6,
+p,
+span,
+b,
+strong,
+small,
+button,
+form,
+label div {
+  font-family: "yekan";
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "yekan", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 100vh;
+  box-shadow: 0 0 20px #eee;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ------------------- HEADER --------------------------- */
+
+@import url("./components/header/header.css");
+
+/* ------------------- AUTH --------------------------- */
+
+@import url("./components/body/auth/auth.css");
+
+/* ------------------- Profile --------------------------- */
+
+@import url("./components/body/profile/profile.css");
+
+/* ------------------- edit User page --------------------------- */
+
+@import url("./components//body//profile/editUser.css");
